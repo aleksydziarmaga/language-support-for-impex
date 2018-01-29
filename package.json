@@ -1,0 +1,26 @@
+{
+    "name": "language-support-for-impex",
+    "displayName": "Language Support for Impex",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "aleksydziarmaga",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "",
+            "aliases": ["", ""],
+            "extensions": [".impex"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "",
+            "scopeName": "",
+            "path": "./syntaxes/.tmLanguage.json"
+        }]
+    }
+}
